@@ -1,21 +1,13 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
     <title>Simple web Development Template</title>
     <link rel="stylesheet" type="text/css" href="css/base.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
-<div id="main-nav"></div>
-<script>
-    window.onload = function(){
-        $.get("nav.html", function(data){
-            $("#main-nav").html(data);
-        })
-    }
-</script>
+<div id="nav"></div>
+<script src="main.js"></script>
 
 <section class="firstsection">
     <div class="box-main">
