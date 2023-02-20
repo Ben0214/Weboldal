@@ -1,10 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+        .header {
+            display: flex;
+            justify-content: flex-end;
+            padding: 20px;
+        }
+
+        #login-form {
+            margin-right: 10px;
+        }
+    </style>
 </head>
 <body>
+<div id="nav"></div>
+<script src="main.js"></script>
 
+    <div id="login-form"></div>
+
+<header>
+    <h1>Contact Us</h1>
+</header>
+<main>
+    <div class="contact-info">
+        <h2>Contact Information</h2>
+        <p>Name: Hegedus Benjamin/Bauerfeind Kristof</p>
+        <p>Email: name@example.com</p>
+        <p>Phone: (381) 456-7890</p>
+
+    </div>
+
+</main>
+<style>
+    html {
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+
+    body {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        min-height: 100%;
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 100px;
+        font-size: xx-large;
+    }
+
+    .contact-info {
+        width: 400px;
+        margin-right: 50px;
+    }
+
+    form {
+        width: 400px;
+    }
+
+    h2 {
+        margin-top: 0;
+    }
+
+    label {
+        display: block;
+        margin-top: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+        width: 500%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    button[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+        background-color: #555;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+
+</style>
+<footer>
+    <p>&copy; 2023 Hegedus Benjamin/Bauerfeind Kristof</p>
+    <nav>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+    </nav>
+</footer>
 </body>
 </html>

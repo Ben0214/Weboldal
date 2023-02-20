@@ -49,6 +49,36 @@
     text-align: right;
 }
 
+form{
+    display: flex;
+    flex-direction: row;
+}
+
+form input{
+    border-radius: 5px;
+    padding: .5rem;
+}
+
+form > * {
+    margin: .2rem;
+}
+
+.btn{
+    background: transparent;
+    color: red;
+    font-weight: bold;
+    outline: red;
+    border: 2px solid;
+    padding: .5rem 1rem;
+}
+
+.btn:hover{
+    background: #B60000FF;
+}
+
+.btn:active{
+    background: #ff5454;
+}
 /* Dropdown Button */
 .dropbtn {
     background-color: #050000;
