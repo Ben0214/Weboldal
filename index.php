@@ -3,9 +3,6 @@ session_start();
 
 if(!isset($_SESSION["uname"]))
     echo "NOT LOGGED IN!!!";
-    echo "NOT LOGGED IN!!!";
-    echo "NOT LOGGED IN!!!";
-    echo "NOT LOGGED IN!!!";
 ?>
 
 <!DOCTYPE html>
