@@ -35,6 +35,13 @@
     background-blend-mode: darken;
     background-size: cover;
 }
+#welcome{
+    color: var(--accent-2);
+    font-size: 1em;
+    padding: 1rem;
+    text-decoration: underline;
+    font-weight: bold;
+}
 
 .nav-list {
     width: 70%;

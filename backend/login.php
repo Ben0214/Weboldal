@@ -20,14 +20,14 @@ if($_POST){
             header('Location: ../index.php');
         }
     }else{
-        $_SESSION["uname"]=$uname;
-        header('location: index.php');
-//        if(mysqli_fetch_assoc($queryCheckName)['password'] == ){
-//            $_SESSION["uname"]=$uname;
-//        }
-//        else{
-//            echo "Wrong password";
-//        }
+        $row = mysqli_fetch_assoc($queryCheckName);
+        if($row['password'] == $password){
+            $_SESSION["uname"]=$uname;
+            header('location: ../index.php');
+        }
+        else{
+            echo "Wrong password";
+        }
     }
 }
 

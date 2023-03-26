@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <head>
     <link rel="stylesheet" type="text/css" href="css/nav.css">
 </head>
@@ -28,8 +31,8 @@
     <?php
     if(isset($_SESSION['uname'])) {
         $uname = $_SESSION['uname'];
-        echo "<p>Hello $uname</p>";
-        echo "<a href='backend/logout.php'>Logout</a>";
+        echo "<p id='welcome'>Hello $uname</p>";
+        echo "<a href='backend/logout.php' class='btn'>Logout</a>";
      } else {
         ?>
         <form id="login" method="post" action="backend/login.php">
