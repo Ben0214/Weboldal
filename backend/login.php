@@ -5,6 +5,7 @@ if($_POST){
     $uname = $_POST['username'];
     $password = $_POST['pass'];
 
+
     $connect = mysqli_connect("localhost","root","", "accounts") or die ("couldn't connect");
 
     $queryCheckName = mysqli_query($connect, "SELECT username,password FROM users WHERE username='$uname'");
