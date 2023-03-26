@@ -10,7 +10,7 @@
         <div class="dropdown">
             <button class="dropbtn">Shoes</button>
             <div class="dropdown-content">
-                <a href="./Products.html">Nike</a>
+                <a href="Products.php">Nike</a>
                 <a href="./Proba2.html">Adidas</a>
                 <a href="./proba3.html">Hummel</a>
             </div>

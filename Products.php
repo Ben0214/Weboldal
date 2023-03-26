@@ -3,68 +3,22 @@
 <head>
   <title>Modern Online Store</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="ProductsStyle.css">
-  <link rel="stylesheet" type="text/css" href="nav.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/ProductsStyle.css">
+  <link rel="stylesheet" type="text/css" href="css/nav.css">
 </head>
 <body>
-<header>
-
-  </div>
-  <!-- Leave some empty space for navigation bar -->
-
-    <nav class="navbar background">
-      <ul class="nav-list">
-        <div class="logo">
-          <a href="index.php"><img src="shoe.jpg"/></a>
-        </div>
-
-        <div class="dropdown">
-          <button class="dropbtn">Shoes</button>
-          <div class="dropdown-content">
-            <a href="./Proba.html">Nike</a>
-            <a href="./Proba2.html">Adidas</a>
-            <a href="./proba3.html">Hummel</a>
-          </div>
-        </div>
-        <div class="dropdown">
-          <button class="dropbtn">Clothes</button>
-          <div class="dropdown-content">
-            <a href="./gucci.html">Gucci</a>
-            <a href="./Blacksquad.html">Black Squad</a>
-            <a href="./hummel.html">Hummel</a>
-          </div>
-        </div>
-        <li><a href="./Aboutus.html">About Us</a></li>
-      </ul>
-      <?php
-    if(isset($_SESSION['uname'])) {
-        $uname = $_SESSION['uname'];
-        echo "<p>Hello $uname</p>";
-      } else {
-      ?>
-      <form id="login" method="post" action="backend/login.php">
-        <input name="username" type='text' placeholder='Username'>
-        <input name="pass" type='password' placeholder='Password'>
-        <input class="btn" type='submit' value='Login'>
-      </form>
-      <?php } ?>
-      <!--    <div class="rightNav">-->
-      <!--        <input type="text" name="search" id="search">-->
-      <!--        <button class="btn btn-sm">Search</button>-->
-      <!--    </div>-->
-
-
-  </nav>
-</header>
+<div id="nav"></div>
+<script src="main.js"></script>
 <main>
   <section class="hero">
     <div class="hero-content">
       <h1>Welcome to Our Online Store</h1>
       <p>Discover our latest collection of products</p>
-      <a href="#" class="button">Shop Now</a>
+      <a href="#products" class="button">Shop Now</a>
     </div>
   </section>
-  <section class="products">
+  <section class="products" id="products">
     <h2>Our Products</h2>
     <div class="product-grid">
       <div class="product-card">
@@ -113,11 +67,7 @@
       </div>
     </div>
   </section>
-  <section class="about">
-    <h2>About Us</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed erat eget augue vestibulum convallis. Donec in justo vel nulla condimentum posuere vitae id elit. Nam ac tincidunt turpis, at consequat dolor. Sed bibendum, mauris nec aliquam pharetra, augue eros malesuada metus, et lobortis elit enim at nulla.</p>
-    <a href="#" class="button">Learn More</a>
-  </section>
+
   <section class="contact">
     <h2>Contact Us</h2>
     <form>
