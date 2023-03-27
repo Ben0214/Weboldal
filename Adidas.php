@@ -19,15 +19,15 @@
         }
     </style>
 
-<html>
-<head>
-    <title>Modern Online Store</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/ProductsStyle.css">
-    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <html>
+    <head>
+        <title>Modern Online Store</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/ProductsStyle.css">
+        <link rel="stylesheet" type="text/css" href="css/nav.css">
 
-</head>
+    </head>
 <body>
 <div id="nav"></div>
 <script src="main.js"></script>
@@ -47,15 +47,15 @@
         </div>
     </section>
     <section class="products" id="products">
-        <h2>Nike Products</h2>
+        <h2>Adidas Products</h2>
         <div class="product-grid">
             <div class="product-card">
                 <div class="product-image">
                     <img src="product1.jpg" alt="Product 1">
                 </div>
                 <div class="product-info">
-                    <h3>Nike Air Force 1</h3>
-                    <p class="description">This iconic sneaker features a leather upper, a classic design, and a comfortable fit. It also has a cushioned sole for added support.</p>
+                    <h3>Adidas Superstar</h3>
+                    <p class="description">This iconic shoe features a classic design with a leather upper and rubber shell toe. It also has a comfortable, cushioned sole for all-day wear.</p>
                     <p class="price">$50.00</p>
                     <a href="#" class="button">Add to Cart</a>
                 </div>
@@ -65,8 +65,8 @@
                     <img src="product2.jpg" alt="Product 2">
                 </div>
                 <div class="product-info">
-                    <h3>Nike Cortez Basic Leather</h3>
-                    <p class="description">This classic running shoe features a leather upper and a comfortable foam midsole. It also has a vintage finish and a stylish, low-cut design.</p>
+                    <h3>Adidas Stan Smith</h3>
+                    <p class="description">This retro-style sneaker features a leather upper and a comfortable foam midsole. It has a classic design with a perforated three-stripe detail and a simple, clean look.</p>
                     <p class="price">$75.00</p>
                     <a href="#" class="button">Add to Cart</a>
                 </div>
@@ -76,8 +76,8 @@
                     <img src="product3.jpg" alt="Product 3">
                 </div>
                 <div class="product-info">
-                    <h3>Nike Classic Cortez Nylon</h3>
-                    <p class="description">This retro-style sneaker has a nylon upper and a foam midsole for added comfort. It features a classic design and a vintage finish, making it a stylish choice for everyday wear.</p>
+                    <h3>Adidas Continental 80</h3>
+                    <p class="description">This vintage-inspired sneaker has a leather upper and a retro-style two-tone stripe detail. It also has a cushioned sole for added comfort.</p>
                     <p class="price">$100.00</p>
                     <a href="#" class="button">Add to Cart</a>
                 </div>
@@ -87,8 +87,8 @@
                     <img src="product4.jpg" alt="Product 4">
                 </div>
                 <div class="product-info">
-                    <h3>Nike Blazer Mid '77</h3>
-                    <p class="description">This retro-style sneaker has a high-top design with a leather upper and vintage finish, complete with a comfortable foam tongue for added support.</p>
+                    <h3>Adidas Samba</h3>
+                    <p class="description">This classic indoor soccer shoe has a leather upper and a comfortable gum sole. It features a retro design with a suede toe cap and a T-toe overlay for added durability.</p>
                     <p class="price">$125.00</p>
                     <a href="#" class="button">Add to Cart</a>
                 </div>
