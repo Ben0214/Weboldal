@@ -19,7 +19,7 @@
     </div>
   </section>
   <section class="products" id="products">
-    <h2>Our Products</h2>
+    <h2>Nike Products</h2>
     <div class="product-grid">
       <div class="product-card">
         <div class="product-image">
