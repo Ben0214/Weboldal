@@ -1,3 +1,26 @@
+:root{
+    --primary-20: #f2848d;
+    --primary-30: #eb636e;
+    --primary: #de2534;
+    --primary-60: #c01826;
+    --primary-70: #a20e1a;
+
+    --accent-1: #72de26;
+    --accent-1-s: #519123;
+    --accent-2: #26deb3;
+    --accent-2-s: #239178;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+#login-form {
+    margin-right: 20px;
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -11,6 +34,13 @@
     background: black;
     background-blend-mode: darken;
     background-size: cover;
+}
+#welcome{
+    color: var(--accent-2);
+    font-size: 1em;
+    padding: 1rem;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .nav-list {
@@ -65,19 +95,19 @@ form > * {
 
 .btn{
     background: transparent;
-    color: red;
+    color: var(--primary);
     font-weight: bold;
-    outline: red;
+    outline: var(--primary);
     border: 2px solid;
     padding: .5rem 1rem;
 }
 
 .btn:hover{
-    background: #B60000FF;
+    background: var(--primary-70);
 }
 
 .btn:active{
-    background: #ff5454;
+    background: var(--primary-30);
 }
 /* Dropdown Button */
 .dropbtn {

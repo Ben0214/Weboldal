@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <head>
     <link rel="stylesheet" type="text/css" href="css/nav.css">
 </head>
@@ -10,7 +13,7 @@
         <div class="dropdown">
             <button class="dropbtn">Shoes</button>
             <div class="dropdown-content">
-                <a href="./Proba.html">Nike</a>
+                <a href="Products.php">Nike</a>
                 <a href="./Proba2.html">Adidas</a>
                 <a href="./proba3.html">Hummel</a>
             </div>
@@ -28,7 +31,8 @@
     <?php
     if(isset($_SESSION['uname'])) {
         $uname = $_SESSION['uname'];
-        echo "<p>Hello $uname</p>";
+        echo "<p id='welcome'>Hello $uname</p>";
+        echo "<a href='backend/logout.php' class='btn'>Logout</a>";
      } else {
         ?>
         <form id="login" method="post" action="backend/login.php">

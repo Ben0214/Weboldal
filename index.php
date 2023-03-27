@@ -2,10 +2,7 @@
 session_start();
 
 if(!isset($_SESSION["uname"]))
-    echo "NOT LOGGED IN!!!";
-    echo "NOT LOGGED IN!!!";
-    echo "NOT LOGGED IN!!!";
-    echo "NOT LOGGED IN!!!";
+//    echo "NOT LOGGED IN!!!";
 ?>
 
 <!DOCTYPE html>
@@ -68,8 +65,6 @@ if(!isset($_SESSION["uname"]))
     <p class="text-footer">
         <a href="./Contactus.html">Contact us</a>
     </p>
-
-
 </footer>
 </body>
 
