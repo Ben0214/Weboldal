@@ -26,8 +26,8 @@
           <img src="product1.jpg" alt="Product 1">
         </div>
         <div class="product-info">
-          <h3>Product 1</h3>
-          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sapien sit amet dictum ultricies.</p>
+          <h3>Nike Air Force 1</h3>
+          <p class="description">This iconic sneaker features a leather upper, a classic design, and a comfortable fit. It also has a cushioned sole for added support.</p>
           <p class="price">$50.00</p>
           <a href="#" class="button">Add to Cart</a>
         </div>
@@ -37,8 +37,8 @@
           <img src="product2.jpg" alt="Product 2">
         </div>
         <div class="product-info">
-          <h3>Product 2</h3>
-          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sapien sit amet dictum ultricies.</p>
+          <h3>Nike Cortez Basic Leather</h3>
+          <p class="description">This classic running shoe features a leather upper and a comfortable foam midsole. It also has a vintage finish and a stylish, low-cut design.</p>
           <p class="price">$75.00</p>
           <a href="#" class="button">Add to Cart</a>
         </div>
@@ -48,8 +48,8 @@
           <img src="product3.jpg" alt="Product 3">
         </div>
         <div class="product-info">
-          <h3>Product 3</h3>
-          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sapien sit amet dictum ultricies.</p>
+          <h3>Nike Classic Cortez Nylon</h3>
+          <p class="description">This retro-style sneaker has a nylon upper and a foam midsole for added comfort. It features a classic design and a vintage finish, making it a stylish choice for everyday wear.</p>
           <p class="price">$100.00</p>
           <a href="#" class="button">Add to Cart</a>
         </div>
@@ -59,8 +59,8 @@
           <img src="product4.jpg" alt="Product 4">
         </div>
         <div class="product-info">
-          <h3>Product 4</h3>
-          <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sapien sit amet dictum ultricies.</p>
+          <h3>Nike Blazer Mid '77</h3>
+          <p class="description">This retro-style sneaker has a high-top design with a leather upper and vintage finish, complete with a comfortable foam tongue for added support.</p>
           <p class="price">$125.00</p>
           <a href="#" class="button">Add to Cart</a>
         </div>
