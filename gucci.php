@@ -19,15 +19,15 @@
         </div>
     </section>
     <section class="products" id="products">
-        <h2>Nike Products</h2>
+        <h2>Gucci Products</h2>
         <div class="product-grid">
             <div class="product-card">
                 <div class="product-image">
                     <img src="product1.jpg" alt="Product 1">
                 </div>
                 <div class="product-info">
-                    <h3>Product 1</h3>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sapien sit amet dictum ultricies.</p>
+                    <h3>Gucci GG Jacquard Turtleneck Sweater</h3>
+                    <p class="description">This luxurious sweater features a wool and cashmere blend with a jacquard GG pattern. It also has a comfortable turtleneck design and ribbed cuffs and hem.</p>
                     <p class="price">$50.00</p>
                     <a href="#" class="button">Add to Cart</a>
                 </div>
@@ -37,8 +37,8 @@
                     <img src="product2.jpg" alt="Product 2">
                 </div>
                 <div class="product-info">
-                    <h3>Product 2</h3>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sapien sit amet dictum ultricies.</p>
+                    <h3>Gucci Logo Print Cotton T-Shirt</h3>
+                    <p class="description">This classic t-shirt features a comfortable cotton fabric with a bold Gucci logo print. It also has a relaxed fit and a ribbed crewneck collar.</p>
                     <p class="price">$75.00</p>
                     <a href="#" class="button">Add to Cart</a>
                 </div>
@@ -48,8 +48,8 @@
                     <img src="product3.jpg" alt="Product 3">
                 </div>
                 <div class="product-info">
-                    <h3>Product 3</h3>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sapien sit amet dictum ultricies.</p>
+                    <h3>Gucci Flora Snake Print Silk Shirt</h3>
+                    <p class="description">This stylish shirt is made with a soft silk fabric and features a bold Flora Snake print. It also has a classic collar and button-front closure.</p>
                     <p class="price">$100.00</p>
                     <a href="#" class="button">Add to Cart</a>
                 </div>
@@ -59,8 +59,8 @@
                     <img src="product4.jpg" alt="Product 4">
                 </div>
                 <div class="product-info">
-                    <h3>Product 4</h3>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sapien sit amet dictum ultricies.</p>
+                    <h3>Gucci Technical Jersey Track Pants</h3>
+                    <p class="description">These sporty track pants are made with a comfortable technical jersey fabric and feature a bold Gucci logo stripe detail. They also have an elasticized waistband and zippered pockets.</p>
                     <p class="price">$125.00</p>
                     <a href="#" class="button">Add to Cart</a>
                 </div>
