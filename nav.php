@@ -13,17 +13,17 @@ session_start();
         <div class="dropdown">
             <button class="dropbtn">Shoes</button>
             <div class="dropdown-content">
-                <a href="Products.php">Nike</a>
-                <a href="./Proba2.html">Adidas</a>
-                <a href="./proba3.html">Hummel</a>
+                <a href="./Products.php">Nike</a>
+                <a href="./Adidas.php">Adidas</a>
+                <a href="./hummelshoes.php">Hummel</a>
             </div>
         </div>
         <div class="dropdown">
             <button class="dropbtn">Clothes</button>
             <div class="dropdown-content">
-                <a href="./gucci.html">Gucci</a>
-                <a href="./Blacksquad.html">Black Squad</a>
-                <a href="./hummel.html">Hummel</a>
+                <a href="./gucci.php">Gucci</a>
+                <a href="./Blacksquad.php">Black Squad</a>
+                <a href="./hummelshoes.php">Hummel</a>
             </div>
         </div>
         <li><a href="./Aboutus.html">About Us</a></li>
