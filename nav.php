@@ -7,7 +7,7 @@ session_start();
 <nav class="navbar background">
     <ul class="nav-list">
         <div class="logo">
-            <a href="index.php"><img src="shoe.jpg"/></a>
+            <a href="index.php"><img src="gallery/shoe.jpg"/></a>
         </div>
 
         <div class="dropdown">
@@ -23,9 +23,9 @@ session_start();
             <div class="dropdown-content">
                 <a href="./gucci.php">Gucci</a>
 
-                <a href="UNder Armour.php">Under Armour</a>
+                <a href="underarmour.php">Under Armour</a>
 
-                <a href="./hummelshoes.php">Hummel</a>
+                <a href="Hummeldress.php">Hummel</a>
             </div>
         </div>
         <li><a href="./Aboutus.html">About Us</a></li>
