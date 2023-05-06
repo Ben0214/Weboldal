@@ -23,6 +23,7 @@ session_start();
             <div class="dropdown-content">
                 <a href="./gucci.php">Gucci</a>
 
+<!--                TODO: ezt kijavitani-->
                 <a href="UNder Armour.php">Under Armour</a>
 
                 <a href="./hummelshoes.php">Hummel</a>
