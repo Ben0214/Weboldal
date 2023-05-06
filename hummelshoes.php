@@ -1,3 +1,10 @@
+<?php
+
+require 'backend/retrieve_data.php';
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,50 +28,7 @@
     <section class="products" id="products">
         <h2>Hummel Products</h2>
         <div class="product-grid">
-            <div class="product-card">
-                <div class="product-image">
-                    <img src="product1.jpg" alt="Product 1">
-                </div>
-                <div class="product-info">
-                    <h3>Hummel Stadil Classic</h3>
-                    <p class="description">This retro-style sneaker features a leather and suede upper with a classic design. It also has a comfortable foam midsole for added support.</p>
-                    <p class="price">$50.00</p>
-                    <a href="#" class="button">Add to Cart</a>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <img src="product2.jpg" alt="Product 2">
-                </div>
-                <div class="product-info">
-                    <h3>Hummel Slimmer Stadil Low</h3>
-                    <p class="description">This vintage-inspired shoe has a canvas and suede upper with a low-cut design. It features a classic look with a retro-style chevron detail.</p>
-                    <p class="price">$75.00</p>
-                    <a href="#" class="button">Add to Cart</a>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <img src="product3.jpg" alt="Product 3">
-                </div>
-                <div class="product-info">
-                    <h3>Hummel Deuce Court Tonal</h3>
-                    <p class="description">This minimalist sneaker has a leather upper with a tonal design. It features a classic, low-cut silhouette and a comfortable foam midsole.</p>
-                    <p class="price">$100.00</p>
-                    <a href="#" class="button">Add to Cart</a>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <img src="product4.jpg" alt="Product 4">
-                </div>
-                <div class="product-info">
-                    <h3>Hummel Slimmer Stadil Duo Oiled Low</h3>
-                    <p class="description">This casual shoe has a suede and canvas upper with a retro-style design. It also features a cushioned sole for added comfort.</p>
-                    <p class="price">$125.00</p>
-                    <a href="#" class="button">Add to Cart</a>
-                </div>
-            </div>
+            <?php getProducts("Hummel Shoes"); ?>
         </div>
     </section>
 

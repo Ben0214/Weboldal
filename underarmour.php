@@ -1,6 +1,6 @@
 <?php
 
-require_once 'backend/retrieve_data.php';
+require 'backend/retrieve_data.php';
 
 ?>
 
@@ -24,11 +24,11 @@ require_once 'backend/retrieve_data.php';
             <a href="#products" class="button">Shop Now</a>
         </div>
     </section>
-    <section class="products" id="products">
-        <h2>Nike Products</h2>
-        <?php getProducts("Nike"); ?>
-    </section>
 
+    <section class="products" id="products">
+        <h2>Under Armour Products</h2>
+        <?php getProducts("Under Armour"); ?>
+    </section>
 
     <section class="contact">
         <h2>Contact Us</h2>

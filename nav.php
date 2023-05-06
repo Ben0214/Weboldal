@@ -28,13 +28,14 @@ session_start();
                 <a href="Hummeldress.php">Hummel</a>
             </div>
         </div>
-        <li><a href="./Aboutus.html">About Us</a></li>
+        <li><a href="Aboutus.html">About Us</a></li>
     </ul>
     <?php
     if(isset($_SESSION['uname'])) {
         $uname = $_SESSION['uname'];
         echo "<p id='welcome'>Hello $uname</p>";
         echo "<a href='backend/logout.php' class='btn'>Logout</a>";
+        echo "<a href='cart.php' class='btn'>Cart</a>";
      } else {
         ?>
         <form id="login" method="post" action="backend/login.php">
@@ -42,6 +43,7 @@ session_start();
             <input name="pass" type='password' placeholder='Password'>
             <input class="btn" type='submit' value='Login'>
         </form>
+        <a href="registration.php" class="btn">Register</a>
     <?php } ?>
     <!--    <div class="rightNav">-->
     <!--        <input type="text" name="search" id="search">-->
