@@ -1,0 +1,196 @@
+<h2>Nike Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="product-image">
+          <img src="product1.jpg" alt="Product 1">
+        </div>
+        <div class="product-info">
+          <h3>Nike Air Force 1</h3>
+          <p class="description">This iconic sneaker features a leather upper, a classic design, and a comfortable fit. It also has a cushioned sole for added support.</p>
+          <p class="price">$50.00</p>
+          <a href="#" class="button">Add to Cart</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="product2.jpg" alt="Product 2">
+        </div>
+        <div class="product-info">
+          <h3>Nike Cortez Basic Leather</h3>
+          <p class="description">This classic running shoe features a leather upper and a comfortable foam midsole. It also has a vintage finish and a stylish, low-cut design.</p>
+          <p class="price">$75.00</p>
+          <a href="#" class="button">Add to Cart</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="product3.jpg" alt="Product 3">
+        </div>
+        <div class="product-info">
+          <h3>Nike Classic Cortez Nylon</h3>
+          <p class="description">This retro-style sneaker has a nylon upper and a foam midsole for added comfort. It features a classic design and a vintage finish, making it a stylish choice for everyday wear.</p>
+          <p class="price">$100.00</p>
+          <a href="#" class="button">Add to Cart</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="product4.jpg" alt="Product 4">
+        </div>
+        <div class="product-info">
+          <h3>Nike Blazer Mid '77</h3>
+          <p class="description">This retro-style sneaker has a high-top design with a leather upper and vintage finish, complete with a comfortable foam tongue for added support.</p>
+          <p class="price">$125.00</p>
+          <a href="#" class="button">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+
+
+            <h2>Hummel Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="product1.jpg" alt="Product 1">
+                    </div>
+                    <div class="product-info">
+                        <h3>Hummel Stadil Classic</h3>
+                        <p class="description">This retro-style sneaker features a leather and suede upper with a classic design. It also has a comfortable foam midsole for added support.</p>
+                        <p class="price">$50.00</p>
+                        <a href="#" class="button">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="product2.jpg" alt="Product 2">
+                    </div>
+                    <div class="product-info">
+                        <h3>Hummel Slimmer Stadil Low</h3>
+                        <p class="description">This vintage-inspired shoe has a canvas and suede upper with a low-cut design. It features a classic look with a retro-style chevron detail.</p>
+                        <p class="price">$75.00</p>
+                        <a href="#" class="button">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="product3.jpg" alt="Product 3">
+                    </div>
+                    <div class="product-info">
+                        <h3>Hummel Deuce Court Tonal</h3>
+                        <p class="description">This minimalist sneaker has a leather upper with a tonal design. It features a classic, low-cut silhouette and a comfortable foam midsole.</p>
+                        <p class="price">$100.00</p>
+                        <a href="#" class="button">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="product4.jpg" alt="Product 4">
+                    </div>
+                    <div class="product-info">
+                        <h3>Hummel Slimmer Stadil Duo Oiled Low</h3>
+                        <p class="description">This casual shoe has a suede and canvas upper with a retro-style design. It also features a cushioned sole for added comfort.</p>
+                        <p class="price">$125.00</p>
+                        <a href="#" class="button">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+                  <h2>Hummel Products</h2>
+                    <div class="product-grid">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="product1.jpg" alt="Product 1">
+                            </div>
+                            <div class="product-info">
+                                <h3>Hummel Classic Bee Hoodie</h3>
+                                <p class="description">This comfortable hoodie features a soft cotton blend fabric with a classic Hummel logo print. It also has a drawstring hood and a kangaroo pocket.</p>
+                                <p class="price">$50.00</p>
+                                <a href="#" class="button">Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="product2.jpg" alt="Product 2">
+                            </div>
+                            <div class="product-info">
+                                <h3>Hummel Core Poly Shorts</h3>
+                                <p class="description">These athletic shorts are made with a lightweight and breathable polyester fabric. They also have a comfortable elastic waistband and a classic Hummel logo detail.</p>
+                                <p class="price">$75.00</p>
+                                <a href="#" class="button">Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="product3.jpg" alt="Product 3">
+                            </div>
+                            <div class="product-info">
+                                <h3>Hummel Women's Training Tank Top</h3>
+                                <p class="description">This training tank top features a soft and breathable fabric with a comfortable fit. It also has a classic Hummel logo detail and a stylish racerback design.</p>
+                                <p class="price">$100.00</p>
+                                <a href="#" class="button">Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="product4.jpg" alt="Product 4">
+                            </div>
+                            <div class="product-info">
+                                <h3>Hummel HMLNATHAN T-Shirt</h3>
+                                <p class="description">This classic t-shirt features a soft and comfortable cotton blend fabric with a bold Hummel logo print. It also has a relaxed fit and a ribbed crewneck collar.</p>
+                                <p class="price">$125.00</p>
+                                <a href="#" class="button">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                            <h2>Under Armour Products</h2>
+                            <div class="product-grid">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="product1.jpg" alt="Product 1">
+                                    </div>
+                                    <div class="product-info">
+                                        <h3>Under Armour Men's MK1 Short Sleeve Shirt</h3>
+                                        <p class="description">This training shirt features a lightweight and breathable fabric with a classic fit. It also has moisture-wicking technology to keep you dry and comfortable during workouts.</p>
+                                        <p class="price">$50.00</p>
+                                        <a href="#" class="button">Add to Cart</a>
+                                    </div>
+                                </div>
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="product2.jpg" alt="Product 2">
+                                    </div>
+                                    <div class="product-info">
+                                        <h3>Under Armour Men's Rival Fleece Joggers</h3>
+                                        <p class="description">These comfortable joggers are made with a soft, mid-weight fleece fabric and a relaxed fit. They also have a ribbed waistband and cuffs for a secure fit.</p>
+                                        <p class="price">$75.00</p>
+                                        <a href="#" class="button">Add to Cart</a>
+                                    </div>
+                                </div>
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="product3.jpg" alt="Product 3">
+                                    </div>
+                                    <div class="product-info">
+                                        <h3>Under Armour Women's Tech Twist Tank Top</h3>
+                                        <p class="description">This athletic tank top is made with a soft and lightweight fabric with a relaxed fit. It also features moisture-wicking technology to keep you cool and dry during workouts.</p>
+                                        <p class="price">$100.00</p>
+                                        <a href="#" class="button">Add to Cart</a>
+                                    </div>
+                                </div>
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="product4.jpg" alt="Product 4">
+                                    </div>
+                                    <div class="product-info">
+                                        <h3>Under Armour Men's Storm Armour Fleece Hoodie</h3>
+                                        <p class="description">This comfortable hoodie is made with a durable water-resistant finish to keep you dry during inclement weather. It also features a soft and warm fleece lining for added comfort.</p>
+                                        <p class="price">$125.00</p>
+                                        <a href="#" class="button">Add to Cart</a>
+                                    </div>
+                                </div>
+                            </div>
