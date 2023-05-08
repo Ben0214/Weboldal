@@ -51,7 +51,7 @@ session_start();
         <a href="registration.php" class="btn">Register</a>
     <?php } ?>
     <!--    <div class="rightNav">-->
-    <!--        <input type="text" name="search" id="search">-->
+    <!-- 45455       <input type="text" name="search" id="search">-->
     <!--        <button class="btn btn-sm">Search</button>-->
     <!--    </div>-->
 </nav>
