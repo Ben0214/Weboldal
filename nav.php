@@ -22,12 +22,7 @@ session_start();
             <button class="dropbtn">Clothes</button>
             <div class="dropdown-content">
                 <a href="./gucci.php">Gucci</a>
-
-
-
                 <a href="underarmour.php">Under Armour</a>
-
-
                 <a href="Hummeldress.php">Hummel</a>
             </div>
         </div>
