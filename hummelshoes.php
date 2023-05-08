@@ -27,9 +27,7 @@ require 'backend/retrieve_data.php';
     </section>
     <section class="products" id="products">
         <h2>Hummel Products</h2>
-        <div class="product-grid">
-            <?php getProducts("Hummel Shoes"); ?>
-        </div>
+        <?php getProducts("Hummel Shoes"); ?>
     </section>
 
     <section class="contact">

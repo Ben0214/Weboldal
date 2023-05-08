@@ -3,7 +3,7 @@
 if($_POST){
     session_start ();
     if(!isset($_SESSION['uname'])) {
-        header('location: ../login.php');
+        header('location: ../index.php');
     }
     require_once 'connect.php';
     $connect = connect();
