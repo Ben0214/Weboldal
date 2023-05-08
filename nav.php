@@ -24,9 +24,6 @@ session_start();
                 <a href="./gucci.php">Gucci</a>
 
 
-<!--                TODO: ezt kijavitani-->
-                <a href="UNder Armour.php">Under Armour</a>
-
                 <a href="underarmour.php">Under Armour</a>
 
 
